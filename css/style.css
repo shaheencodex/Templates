@@ -11,7 +11,6 @@ body {
   width: 100%;
   max-width: 80%;
   margin: 40px auto;
-
   padding: 10px;
 }
 
@@ -20,7 +19,7 @@ body {
   width: 100%;
   background: rgb(178, 241, 68);
   text-align: right;
-  padding: 50px 0px;
+  padding: 40px 0px;
 }
 
 .top-header h2 {
@@ -37,7 +36,6 @@ body {
   font-weight: 600;
   margin: 5px 0px;
   padding-right: 100px;
-  text-transform: capitalize;
 }
 
 .main {
@@ -53,7 +51,7 @@ body {
 
 .nav-menu ul {
   padding-left: 0;
-  margin: 5px 0px;
+  margin: 10px 0px;
 }
 
 .nav-menu ul li {
@@ -63,37 +61,89 @@ body {
 .nav-menu ul li a {
   text-decoration: none;
   font-size: 20px;
-  margin: 0 55px;
+  padding: 0 60px;
   font-weight: 500;
   text-transform: capitalize;
 }
 
-.nav-list:hover {
+.nav-list a:hover {
   color: brown;
 }
-.nav-list:active {
-  color: rgb(255, 218, 7);
+
+.nav-list a:active {
+  color: rgb(42, 147, 165);
 }
 
-.nav-list:visited {
-  color: rgb(30, 67, 24);
-}
-
-.about {
+.section-one {
   float: left;
   margin-top: 5px;
-  padding: 5px;
 }
-.services {
+.section-left {
   float: left;
-  margin-top: 10px;
+  width: 30%;
+}
+
+.main-menu h2 {
+  background-color: rgb(178, 241, 68);
+  margin: 5px;
+  padding: 10px;
+}
+
+.main-menu .main-list {
+  list-style-type: square;
+}
+
+.main-list ul li {
+  margin: 15px;
+}
+
+.main-menu .main-list li a {
+  text-decoration: none;
+  font-size: 15px;
   padding: 5px;
-  background-color: rgb(204, 224, 138);
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.sub-menu h2 {
+  background-color: rgb(178, 241, 68);
+  margin: 5px;
+  padding: 10px;
+}
+.sub-menu p {
+  margin: 20px;
+}
+
+.section-right {
+  float: right;
+  width: 70%;
+}
+.section-right .gallery {
+  padding: 10px;
+}
+.sub-services .subscription {
+  padding: 10px;
+  float: left;
+  width: 40%;
+}
+
+.sub-services .other-services {
+  padding: 10px;
+  float: left;
+  width: 40%;
+}
+
+.footer {
+  float: left;
   width: 100%;
+  background: rgb(178, 241, 68);
+  text-align: center;
 }
 
-.services .h2 {
-  float: left;
-  margin-top: 5px;
-  background-color: rgb(204, 224, 138);
+.btn {
+  background: rgb(178, 241, 68);
+  padding: 15px;
+  border-radius: 5px;
+  font-size: medium;
+  font-weight: 500;
 }
