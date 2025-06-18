@@ -1,0 +1,99 @@
+body {
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0 auto;
+  background-color: beige;
+}
+
+.container {
+  float: none;
+  width: 100%;
+  max-width: 80%;
+  margin: 40px auto;
+
+  padding: 10px;
+}
+
+.top-header {
+  float: left;
+  width: 100%;
+  background: rgb(178, 241, 68);
+  text-align: right;
+  padding: 50px 0px;
+}
+
+.top-header h2 {
+  color: black;
+  font-size: 30px;
+  font-weight: 600;
+  margin: 5px 0px;
+  padding-right: 100px;
+  text-transform: capitalize;
+}
+.top-header h5 {
+  color: black;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 5px 0px;
+  padding-right: 100px;
+  text-transform: capitalize;
+}
+
+.main {
+  float: left;
+  width: 100%;
+  background: white;
+}
+
+.nav-menu {
+  float: left;
+  width: 100%;
+}
+
+.nav-menu ul {
+  padding-left: 0;
+  margin: 5px 0px;
+}
+
+.nav-menu ul li {
+  display: inline-block;
+}
+
+.nav-menu ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  margin: 0 55px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.nav-list:hover {
+  color: brown;
+}
+.nav-list:active {
+  color: rgb(255, 218, 7);
+}
+
+.nav-list:visited {
+  color: rgb(30, 67, 24);
+}
+
+.about {
+  float: left;
+  margin-top: 5px;
+  padding: 5px;
+}
+.services {
+  float: left;
+  margin-top: 10px;
+  padding: 5px;
+  background-color: rgb(204, 224, 138);
+  width: 100%;
+}
+
+.services .h2 {
+  float: left;
+  margin-top: 5px;
+  background-color: rgb(204, 224, 138);
+}
